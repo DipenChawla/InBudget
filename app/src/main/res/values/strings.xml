@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">InBudget</string>
+    <string name="what_s_on_your_mind">What\'s on your mind?</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="types">
+        <item>Netflix</item>
+        <item>Amazon Prime</item>
+        <item>Wynk Music</item>
+    </string-array>
+</resources>

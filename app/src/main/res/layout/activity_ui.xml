@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/expense_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter the expense"
+            android:theme="@style/MyEditText"
+            android:fontFamily="@font/montserrat"/>
+
+        <Button
+            android:id="@+id/add_expense"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ADD EXPENSE"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/montserrat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/income_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter the income"
+            android:theme="@style/MyEditText"
+            android:fontFamily="@font/montserrat"/>
+
+        <Button
+            android:id="@+id/add_income"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ADD INCOME"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/montserrat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/budget_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Set your budget"
+            android:theme="@style/MyEditText"
+            android:fontFamily="@font/montserrat" />
+
+        <Button
+            android:id="@+id/add_budget"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SET BUDGET"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/montserrat" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/show_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="SHOW SUMMARY"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/montserrat" />
+
+
+        <TextView
+            android:id="@+id/summary_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="varsha"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"
+            android:fontFamily="@font/montserrat"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
